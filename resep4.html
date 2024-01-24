@@ -1,0 +1,112 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    
+    <title>Resepku</title>
+    <script>
+        $(document).ready(function(){
+        $("#tabs").tabs();
+        });
+    </script>
+  </head>
+
+  <body>
+    <!--NAVIGASI-->
+        
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/RESEPKU.COM.png" height="30"px class="d-inline-block align-top" alt="">
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"><img src="Assets/images/beranda.png" alt="" width="30px"><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="daftarMakanan.html"><img src="Assets/images/resep.png" alt="" width="30px"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html"><img src="Assets/images/about.png" alt="" width="30px"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--GAMBAR DAN JUMBOTRON-->
+    <div class="jumbotron jumbotron-fluid gambar">
+      <div class="container text-center">
+        <h1 class="display-6" style="color: green;">SELAMAT DATANG DI RESEPKU.COM</h1>
+      </div>
+    </div>
+    <br><br>
+    <!--RESEP MAKANAN-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 ">
+                <h1>Omurice</h1>
+                <img src="Assets/images/omurice.jpg" class="img-thumbnail">
+            </div>
+            <div class="col-md-7">
+            <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">BAHAN</a></li>
+                        <li><a href="#tabs-2">RESEP</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <!--isi ini BAHAN-->
+                        1. 1 piring nasi putih <br>
+                        2. 1/4 butir bawang bombay, cincang  <br>
+                        3. 100 gram ayam fillet, potong dadu <br>
+                        4. 2 siung bawang putih, cincang <br>
+                        5. 4 sdm saus tomat (kalau orang Jepang pakainya tomato puree atau<br> &nbsp;&nbsp;&nbsp;&nbsp;boleh dikombinasikan keduanya<br> 
+                        6. 1 sdm margarin / minyak goreng untuk menumis dan secukupnya<br> &nbsp;&nbsp;&nbsp;&nbsp;garam dan lada <br>
+                        7. 1 butir telur ayam dan 2-3 sdm susu cair <br>
+                    </div>
+                    <div id="tabs-2">
+                        <!--isi ini RESEP-->
+                        1. Panaskan minyak, tumis bawang putih hingga harum. Masukkan bawang bombay, tumis hingga transparan. Masukkan ayam, masak hingga ayam berubah warna.<br> 
+                        2. Tambahkan nasi, bumbui garam dan merica, aduk rata. Tambahkan saus tomat dan tomato puree ( jika pakai). Aduk kembali. Cicipi rasanya. Jika suka, saus tomat bisa ditambah kuatitasnya.<br>
+                        3. Siapkan penggorengan anti lengket, perciki sedikit minyak lalu lap dengan tisu dapur. Kocok rata bahan omelet lalu tuang tipis ke atas penggorengan. Gunakan api kecil saja supaya telur dadarnya tidak gosong.<br>
+                        4. taruh nasi goreng ke atas omelet yang masih menempel di atas wajan, lalu lipat omelet perlahan-lahan. Balikkan di piring dan rapikan sisi-sisinya.<br>
+                        5. Tambahkan saus tomat di atas omurice sebelum disajikan<br> 
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>    
+   <!--FOOTER-->
+   <div class="jumbotron footer bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 footer-left">
+                <img src="assets/images/RESEPKU.COM.png" height="30"px class="d-inline-block align-top" alt=""><br/><br/>
+                <h6 class="footer-subtitle">Kami menyediakan resep-resep terbaik</h6>
+            </div>
+            <div class="col-md-4 footer-right">
+                <h4 class="footer-title">Our Social Media</h4>
+                <div class="social-media">
+                    <a href="https://facebook.com" class="link-to-social-media">
+                        <img src="assets/images/facebook.png" width="30"px/>
+                    </a>
+                    <a href="https://instagram.com" class="link-to-social-media">
+                        <img src="assets/images/instagram.png" width="30"px/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  </body>
+</html>
